@@ -1,0 +1,31 @@
+{
+  "name": "employee-manegment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "test": "cross-env NODE_ENV=test jest --watchAll --testTimeout=18000 --detectOpenHandles"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^5.0.1",
+    "mongoose": "^5.10.0",
+    "node-geocoder": "^3.27.0",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "sanitize-html": "^2.7.0"
+  }
+}
